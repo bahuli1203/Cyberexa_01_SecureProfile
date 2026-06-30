@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Shravani Mahendra Dhuri</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Get in touch with Shravani Mahendra Dhuri for AI, data science, and cybersecurity collaborations. Send an encrypted message or contact her directly.">
+    <meta name="author" content="Shravani Mahendra Dhuri">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300E5FF'%3E%3Cpath d='M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 6c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 12c-2.7 0-5.06-1.37-6-3.46.03-1.99 4-3.04 6-3.04s5.97 1.05 6 3.04c-.94 2.09-3.3 3.46-6 3.46z'/%3E%3C/svg%3E">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-indicator" class="scroll-progress-bar"></div>
+
+    <!-- Custom Cursor Glow Wrapper -->
+    <div id="cursor-glow" class="custom-cursor-glow"></div>
+
+    <!-- Cyber Background Canvas for Parallax Particles -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Background Ambient Glow Orbs -->
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <!-- Header Navigation -->
+    <header class="navbar-container">
+        <div class="navbar-wrapper">
+            <!-- Logo -->
+            <a href="index.html" class="nav-logo" id="brand-logo">
+                <span class="logo-icon">🛡️</span> Cyberexa
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav class="desktop-menu" id="main-navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="index.html#experience" class="nav-link">Experience</a>
+                <a href="index.html#projects" class="nav-link">Projects</a>
+                <a href="index.html#achievements" class="nav-link">Achievements</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+
+            <!-- Hamburger Button -->
+            <button class="hamburger-btn" id="menu-toggle" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-drawer">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="about.html" class="mobile-link">About</a>
+        <a href="skills.html" class="mobile-link">Skills</a>
+        <a href="index.html#experience" class="mobile-link">Experience</a>
+        <a href="index.html#projects" class="mobile-link">Projects</a>
+        <a href="index.html#achievements" class="mobile-link">Achievements</a>
+        <a href="contact.html" class="mobile-link active">Contact</a>
+    </div>
+
+    <!-- Main Container -->
+    <main>
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section class="section-padding" style="padding-top: 10rem;">
+            <div class="container">
+                <div class="section-header fade-up">
+                    <span class="section-tag">// 06. TRANSMISSION_CHANNEL</span>
+                    <h2 class="section-title">Encrypted Transmission</h2>
+                    <div class="section-title-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form-card glass-card fade-up">
+                        <div class="card-accent-border"></div>
+                        <span class="hud-tag">[SECURITY: RSA_SECURE]</span>
+                        <form id="contact-form" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="form-name">Caller Name</label>
+                                <input type="text" id="form-name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Sender Gateway (Email)</label>
+                                <input type="email" id="form-email" name="email" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Transmission Payload (Message)</label>
+                                <textarea id="form-message" name="message" rows="5" placeholder="System integration message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <i class="fa-solid fa-paper-plane"></i> Transmit Packet
+                            </button>
+                            <div id="form-feedback" class="form-feedback-message"></div>
+                        </form>
+                    </div>
+
+                    <!-- Contact Details / Info -->
+                    <div class="contact-info-panel fade-up">
+                        <div class="info-card glass-card">
+                            <div class="card-accent-border"></div>
+                            <span class="hud-tag">[STATUS: ENDPOINT]</span>
+                            <h3 class="info-card-title">Establish Endpoint Connection</h3>
+                            <p class="info-card-desc">
+                                Interested in collaborating on cybersecurity models, technical content campaigns, or internship vacancies? Submit an encrypted ping or contact directly via verified endpoints.
+                            </p>
+                            
+                            <ul class="direct-contact-list">
+                                <li>
+                                    <span class="contact-icon-wrapper"><i class="fa-solid fa-envelope"></i></span>
+                                    <div>
+                                        <h4 class="contact-item-title">E-mail Node</h4>
+                                        <a href="mailto:shrazzz06@gmail.com" class="contact-item-link">shrazzz06@gmail.com</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="contact-icon-wrapper"><i class="fa-solid fa-phone"></i></span>
+                                    <div>
+                                        <h4 class="contact-item-title">Phone Node</h4>
+                                        <a href="tel:+919820350706" class="contact-item-link">+91 98203 50706</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="contact-icon-wrapper"><i class="fa-solid fa-location-dot"></i></span>
+                                    <div>
+                                        <h4 class="contact-item-title">Geographic Coordinates</h4>
+                                        <span class="contact-item-text">Mumbai, India</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="social-channels">
+                            <a href="https://linkedin.com/in/shravani-dhuri-986b6a317" target="_blank" class="social-btn linkedin" aria-label="LinkedIn Profile" rel="noopener">
+                                <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/Shravanidhuri" target="_blank" class="social-btn github" aria-label="Shravani GitHub Profile" rel="noopener">
+                                <i class="fa-brands fa-github"></i> GitHub (Shravani)
+                            </a>
+                            <a href="https://github.com/bahuli1203" target="_blank" class="social-btn github" aria-label="Bahuli GitHub Profile" rel="noopener">
+                                <i class="fa-brands fa-github"></i> GitHub (Bahuli)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer-container">
+        <div class="container footer-wrapper">
+            <p class="footer-copy">
+                &copy; 2026 Shravani Mahendra Dhuri. All rights reserved.
+            </p>
+            <p class="footer-meta">
+                <img src="https://img.shields.io/badge/Security-Secured-00E5FF?style=flat-square&logo=snyk" alt="Security Shield" style="height: 18px; border-radius: 2px; vertical-align: middle; margin-right: 10px;"> Designed with <span class="footer-heart">💙</span> and precision.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
