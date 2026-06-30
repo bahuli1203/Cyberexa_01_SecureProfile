@@ -37,12 +37,10 @@ This portfolio features a dark, futuristic cyberpunk design system combining gla
 
 ### Desktop View
 #### 1. Home 
-<img width="1922" height="1026" alt="image" src="https://github.com/user-attachments/assets/d454a912-73ca-4eb1-a374-9cf68e0f0b58" />
-
-
+![Home Dashboard](images/home_desktop.png)
 
 #### 2. About & Cybersecurity Skills Roadmap
-
+![About Section](images/about_desktop.png)
 
 #### 3. Core Technical Capabilities
 ![Skills Section](images/skills_desktop.png)
